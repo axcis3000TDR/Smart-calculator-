@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Aplikasi Aneh Simple 😈</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: #111;
+            color: white;
+        }
+        .box {
+            background: #222;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+        button {
+            background: orange;
+            cursor: pointer;
+        }
+        img {
+            max-width: 200px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Aplikasi Ngaco 😵🔥</h1>
+
+<div class="box">
+    <h2>Kalkulator 😎</h2>
+    <input type="number" id="a" placeholder="Angka 1">
+    <input type="number" id="b" placeholder="Angka 2">
+    <br>
+    <button onclick="tambah()">➕ Tambah</button>
+    <button onclick="kurang()">➖ Kurang</button>
+    <button onclick="kali()">✖ Kali</button>
+    <button onclick="bagi()">➗ Bagi</button>
+    <h3 id="hasil">Hasil: 😐</h3>
+</div>
+
+<div class="box">
+    <h2>Upload Foto 📸</h2>
+    <input type="file" id="upload" accept="image/*">
+    <br>
+    <img id="preview">
+</div>
+
+<div class="box">
+    <h2>Random Emoji 🎲</h2>
+    <button onclick="emoji()">Kasih Emoji!</button>
+    <h3
